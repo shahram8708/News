@@ -3,7 +3,7 @@ const axios = require('axios');
 const NewsAPI = require('newsapi');
 const app = express();
 
-const newsapi = new NewsAPI('356234a8933a4453b18412895680c639'); 
+const newsapi = new NewsAPI('API_Key'); 
 
 app.use(express.static('public'));
 
